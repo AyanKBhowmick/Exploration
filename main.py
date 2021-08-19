@@ -10,7 +10,7 @@ from keep_alive import keep_alive
 #db["who was Albert Einstein?"] = "Albert Einstein was #a great scientist"
 #db["who was Abraham Lincoln?"] = "Abraham Lincoln was #the 16th President of Unites States of America"
 
-
+#initializing the event listeners
 
 client = discord.Client()
 
