@@ -43,3 +43,9 @@ In the next step we need to Copy the authorization TOKEN (as shown below) to be 
 
 This TOKEN is used with client.run(TOKEN) in the code to run the code in the Bot (see the main.py code).
 
+ABOUT THE CODE
+
+The code was written to run on Replit and hence the following are specific to Replit and are not needed when hosting on our own server:
+* keep_alive.py is used to keep the Replit code running as Replit shuts down the code after a period of non-activity
+* In main.py: my_secret = os.environ['TOKEN'] is used to keep the TOKEN secret in Replit as its code is all public and only enviroment variables are kept secret.
+* In main.py: keep_alive() is not required to run it as discussed above.
