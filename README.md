@@ -29,10 +29,17 @@ Copy the Bot URL from the box as shown using the "Copy" button. This allows the 
 
 <img width="500" alt="Screen Shot 2021-08-19 at 6 57 03 PM" src="https://user-images.githubusercontent.com/88387668/130079663-82a403ea-f4d5-4f93-b2ab-5948f176d0b7.png">
 
-Paste the URL copied above to a browser and if you are logged in, it will show all the servers you own. Select the server and click "Continue"
+Paste the URL copied above to a browser and if you are logged in, it will show all the servers you own. Select the server and click "Continue". The Bot is now added to your server. You can now invite the Bot to any channel you want.
 
 <img width="500" alt="Screen Shot 2021-08-19 at 6 57 45 PM" src="https://user-images.githubusercontent.com/88387668/130080479-8fc254c6-1693-4e9b-9c14-3f94e3552a13.png">
 
+You will see the Bot as offline in the channel since there is no code running inside it yet
 
+<img width="500" alt="Screen Shot 2021-08-20 at 11 49 39 AM" src="https://user-images.githubusercontent.com/88387668/130189248-9ff95d5e-f396-4943-897a-f17e001c60be.png">
 
+In the next step we need to Copy the authorization TOKEN (as shown below) to be used in the actual Bot code (could be hosted elsewhere) to be able to access the Bot stub that is now in the channel.
+
+<img width="500" alt="Screen Shot 2021-08-19 at 6 58 13 PM" src="https://user-images.githubusercontent.com/88387668/130189537-d933e684-6b11-499a-a8a5-9ad068e8a8cd.png">
+
+This TOKEN is used with client.run(TOKEN) in the code to run the code in the Bot (see the main.py code).
 
