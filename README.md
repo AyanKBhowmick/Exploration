@@ -1,5 +1,5 @@
 # MerlynVoyagerBot
-How to create a Bot in Discord
+How to create a Bot stub in Discord before writing the actual code for the Bot which can be hosted anywhere.
 
 Go to: https://discord.com/developers/applications
 
