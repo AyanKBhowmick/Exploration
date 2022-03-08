@@ -49,3 +49,7 @@ The code was written to run on Replit and hence the following are specific to Re
 * keep_alive.py is used to keep the Replit code running as Replit shuts down the code after a period of non-activity
 * In main.py: my_secret = os.environ['TOKEN'] is used to keep the TOKEN secret in Replit as its code is all public and only enviroment variables are kept secret.
 * In main.py: keep_alive() is not required to run it as discussed above.
+
+Link to the code in replit: https://replit.com/@PrasenjitDey1/Class-Update-Bot
+
+Try out the discord server at: https://discord.com/channels/876313807851515964/876313807851515967
