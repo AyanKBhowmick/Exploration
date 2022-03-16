@@ -1,0 +1,3 @@
+[submodule "discord/MerlynVoyagerBot"]
+	path = discord/MerlynVoyagerBot
+	url = https://github.com/XioResearchInterGalactic/MerlynVoyagerBot.git
